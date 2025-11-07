@@ -17,4 +17,9 @@ Device registration and logging events example:
 https://github.com/nrfconnect/sdk-nrf/tree/v2.5.0/samples/debug/memfault
 <img width="468" height="195" alt="Picture1" src="https://github.com/user-attachments/assets/a445059d-3134-4286-bfed-4d98ce29f583" />
 
+OTA_IMAGE_UPLOAD:
+the exmple has great writeup to how to do this on memfault UI.
+<img width="1090" height="755" alt="image" src="https://github.com/user-attachments/assets/92baecdf-770b-4afd-a149-ccd9bd11a783" />
+
+
 
