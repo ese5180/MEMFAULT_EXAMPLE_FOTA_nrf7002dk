@@ -10,6 +10,9 @@ https://docs.memfault.com/docs/mcu/nordic-nrf-connect-sdk-guide
 
 <img width="1466" height="1290" alt="image" src="https://github.com/user-attachments/assets/525763ff-0605-4f72-a411-c65050bb6c6b" />
 
+<img width="854" height="456" alt="image" src="https://github.com/user-attachments/assets/e2783fac-163f-40e8-92eb-9d900861993d" />
+
+
 
 
  
