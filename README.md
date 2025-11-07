@@ -8,3 +8,11 @@ https://docs.memfault.com/docs/mcu/nordic-nrf-connect-sdk-guide
 
 <img width="1466" height="1290" alt="image" src="https://github.com/user-attachments/assets/525763ff-0605-4f72-a411-c65050bb6c6b" />
 
+
+
+ 
+Device registration and logging events example:
+https://github.com/nrfconnect/sdk-nrf/tree/v2.5.0/samples/debug/memfault
+<img width="468" height="195" alt="Picture1" src="https://github.com/user-attachments/assets/a445059d-3134-4286-bfed-4d98ce29f583" />
+
+
