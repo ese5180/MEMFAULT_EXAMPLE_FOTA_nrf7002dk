@@ -1,6 +1,9 @@
 # MEMFAULT_EXAMPLE_FOTA_nrf7002dk
 A working poc of 2025 Memfault FOTA on nrf7002dk . Most of the nrf and memfault documentation and examples were failing to build so this example serves as an interim eference to FOTA over wifi for nrf7002dk
 
+A bug / or a crucial piece of FOTA is left out in this example obviously I want you to figure it out on your own and feel happy about discovering it yourself and fixing it!! 😉
+Or reach out in OH...
+
 GO through the proj.conf 👓
 
 Based on https://github.com/memfault/nrf7002-memfault-example.
