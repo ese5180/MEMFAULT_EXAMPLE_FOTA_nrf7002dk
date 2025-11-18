@@ -1,0 +1,339 @@
+ export ZEPHYR_TOOLCHAIN_VARIANT=zephyr && export ZEPHYR_SDK_INSTALL_DIR=/opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk && cd "/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main" && west build --board nrf7002dk/nrf5340/cpuapp/ns --pristine=always
+-- west build: making build dir /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build pristine
+-- west build: generating a build system
+Loading Zephyr module(s) (Zephyr base): sysbuild_default
+-- Found Python3: /opt/nordic/ncs/toolchains/ef4fc6722e/opt/python@3.12/bin/python3.12 (found suitable version "3.12.4", minimum required is "3.10") found components: Interpreter
+-- Cache files will be written to: /Users/navjotsinghchahal/Library/Caches/zephyr
+-- Found west (found suitable version "1.2.0", minimum required is "0.14.0")
+-- Board: nrf7002dk, qualifiers: nrf5340/cpuapp/ns
+Parsing /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/Kconfig.sysbuild
+Loaded configuration '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/_sysbuild/empty.conf'
+Merged configuration '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/_sysbuild/empty.conf'
+Configuration saved to '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/zephyr/.config'
+Kconfig header saved to '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/_sysbuild/autoconf.h'
+--
+   *****************************
+   * Running CMake for mcuboot *
+   *****************************
+
+Loading Zephyr default modules (Zephyr base).
+-- Application: /Users/navjotsinghchahal/Desktop/work/embedded/bootloader/mcuboot/boot/zephyr
+-- CMake version: 4.1.2
+-- Found Python3: /opt/nordic/ncs/toolchains/ef4fc6722e/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/bin/python3 (found suitable version "3.12.4", minimum required is "3.10") found components: Interpreter
+-- Cache files will be written to: /Users/navjotsinghchahal/Library/Caches/zephyr
+-- Zephyr version: 4.0.99 (/Users/navjotsinghchahal/Desktop/work/embedded/zephyr)
+-- Found west (found suitable version "1.2.0", minimum required is "0.14.0")
+-- Board: nrf7002dk, qualifiers: nrf5340/cpuapp
+-- Found host-tools: zephyr 0.17.0 (/opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk)
+-- Found toolchain: zephyr 0.17.0 (/opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk)
+-- Could NOT find Dtc (missing: DTC) (Required is at least version "1.4.6")
+Hint: The project() command has not yet been called.  It sets up system-specific search paths.
+-- Found BOARD.dts: /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp.dts
+-- Found devicetree overlay: /Users/navjotsinghchahal/Desktop/work/embedded/bootloader/mcuboot/boot/zephyr/app.overlay
+-- Generated zephyr.dts: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/mcuboot/zephyr/zephyr.dts
+-- Generated pickled edt: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/mcuboot/zephyr/edt.pickle
+-- Generated zephyr.dts: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/mcuboot/zephyr/zephyr.dts
+-- Generated devicetree_generated.h: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/mcuboot/zephyr/include/generated/zephyr/devicetree_generated.h
+-- Including generated dts.cmake file: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/mcuboot/zephyr/dts.cmake
+Parsing /Users/navjotsinghchahal/Desktop/work/embedded/bootloader/mcuboot/boot/zephyr/Kconfig
+Loaded configuration '/Users/navjotsinghchahal/Desktop/work/embedded/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp_defconfig'
+Merged configuration '/Users/navjotsinghchahal/Desktop/work/embedded/bootloader/mcuboot/boot/zephyr/prj.conf'
+Merged configuration '/Users/navjotsinghchahal/Desktop/work/embedded/bootloader/mcuboot/boot/zephyr/boards/nrf7002dk_nrf5340_cpuapp.conf'
+Merged configuration '/Users/navjotsinghchahal/Desktop/work/embedded/nrf/modules/mcuboot/tfm.conf'
+Merged configuration '/Users/navjotsinghchahal/Desktop/work/embedded/nrf/subsys/partition_manager/ext_flash_mcuboot_secondary.conf'
+Merged configuration '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/mcuboot/zephyr/.config.sysbuild'
+Configuration saved to '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/mcuboot/zephyr/.config'
+Kconfig header saved to '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/mcuboot/zephyr/include/generated/zephyr/autoconf.h'
+-- Found GnuLd: /opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/bin/ld.bfd (found version "2.38")
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc
+-- Using ccache: /opt/homebrew/bin/ccache
+MCUBoot bootloader key file: /Users/navjotsinghchahal/Desktop/work/embedded/bootloader/mcuboot/root-rsa-2048.pem
+CMake Warning at CMakeLists.txt:393 (message):
+  WARNING: Using default MCUboot signing key file, this file is for debug use
+  only and is not secure!
+
+
+-- Configuring done (5.6s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/mcuboot
+--
+   ***************************************************
+   * Running CMake for nrf7002-memfault-example-main *
+   ***************************************************
+
+Loading Zephyr default modules (Zephyr base).
+-- Application: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main
+-- CMake version: 4.1.2
+-- Found Python3: /opt/nordic/ncs/toolchains/ef4fc6722e/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/bin/python3 (found suitable version "3.12.4", minimum required is "3.10") found components: Interpreter
+-- Cache files will be written to: /Users/navjotsinghchahal/Library/Caches/zephyr
+-- Zephyr version: 4.0.99 (/Users/navjotsinghchahal/Desktop/work/embedded/zephyr)
+-- Found west (found suitable version "1.2.0", minimum required is "0.14.0")
+-- Board: nrf7002dk, qualifiers: nrf5340/cpuapp/ns
+-- Found host-tools: zephyr 0.17.0 (/opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk)
+-- Found toolchain: zephyr 0.17.0 (/opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk)
+-- Could NOT find Dtc (missing: DTC) (Required is at least version "1.4.6")
+Hint: The project() command has not yet been called.  It sets up system-specific search paths.
+-- Found BOARD.dts: /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp_ns.dts
+-- Generated zephyr.dts: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/zephyr.dts
+-- Generated pickled edt: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/edt.pickle
+-- Generated zephyr.dts: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/zephyr.dts
+-- Generated devicetree_generated.h: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/include/generated/zephyr/devicetree_generated.h
+-- Including generated dts.cmake file: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/dts.cmake
+
+warning: PM_EXTERNAL_FLASH_MCUBOOT_SECONDARY (defined at
+/Users/navjotsinghchahal/Desktop/work/embedded/nrf/subsys/partition_manager/Kconfig:194) was
+assigned the value 'y' but got the value 'n'. Check these unsatisfied dependencies:
+(PM_EXTERNAL_FLASH_ENABLED || MCUBOOT) (=n). See
+http://docs.zephyrproject.org/latest/kconfig.html#CONFIG_PM_EXTERNAL_FLASH_MCUBOOT_SECONDARY and/or
+look up PM_EXTERNAL_FLASH_MCUBOOT_SECONDARY in the menuconfig/guiconfig interface. The Application
+Development Primer, Setting Configuration Values, and Kconfig - Tips and Best Practices sections of
+the manual might be helpful too.
+
+
+warning: WIFI_NRF70 (defined at drivers/wifi/nrf_wifi/Kconfig.nrfwifi:8) was assigned the value 'y'
+but got the value 'n'. Check these unsatisfied dependencies: WIFI (=n). See
+http://docs.zephyrproject.org/latest/kconfig.html#CONFIG_WIFI_NRF70 and/or look up WIFI_NRF70 in the
+menuconfig/guiconfig interface. The Application Development Primer, Setting Configuration Values,
+and Kconfig - Tips and Best Practices sections of the manual might be helpful too.
+
+
+warning: The choice symbol NRF_WIFI_PATCHES_EXT_FLASH_DISABLED (defined at
+/Users/navjotsinghchahal/Desktop/work/embedded/nrf/subsys/net/lib/nrf70_fw_ext/Kconfig:22) was
+selected (set =y), but no symbol ended up as the choice selection. See
+http://docs.zephyrproject.org/latest/kconfig.html#CONFIG_NRF_WIFI_PATCHES_EXT_FLASH_DISABLED and/or
+look up NRF_WIFI_PATCHES_EXT_FLASH_DISABLED in the menuconfig/guiconfig interface. The Application
+Development Primer, Setting Configuration Values, and Kconfig - Tips and Best Practices sections of
+the manual might be helpful too.
+
+
+warning: The choice symbol NRF70_SYSTEM_MODE (defined at drivers/wifi/nrf_wifi/Kconfig.nrfwifi:53)
+was selected (set =y), but no symbol ended up as the choice selection. See
+http://docs.zephyrproject.org/latest/kconfig.html#CONFIG_NRF70_SYSTEM_MODE and/or look up
+NRF70_SYSTEM_MODE in the menuconfig/guiconfig interface. The Application Development Primer, Setting
+Configuration Values, and Kconfig - Tips and Best Practices sections of the manual might be helpful
+too.
+
+
+warning: Deprecated symbol DOWNLOAD_CLIENT is enabled.
+
+
+warning: Experimental symbol NET_CONNECTION_MANAGER is enabled.
+
+Parsing /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/Kconfig
+Loaded configuration '/Users/navjotsinghchahal/Desktop/work/embedded/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp_ns_defconfig'
+Merged configuration '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/prj.conf'
+Merged configuration '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/.config.sysbuild'
+Configuration saved to '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/.config'
+Kconfig header saved to '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/include/generated/zephyr/autoconf.h'
+-- Found GnuLd: /opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/bin/ld.bfd (found version "2.38")
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc
+=========== Generating psa_crypto_config ===============
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_SPM: False
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_C: False
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_KEY_ID_ENCODES_OWNER: False
+Backup: CONFIG_MBEDTLS_PLATFORM_SETUP_TEARDOWN_ALT: False
+Backup: CONFIG_MBEDTLS_THREADING: False
+Backup: CONFIG_MBEDTLS_THREADING_ALT: False
+=========== Checkpoint: backup ===============
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_SPM: False
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_C: False
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_KEY_ID_ENCODES_OWNER: False
+Restore: CONFIG_MBEDTLS_PLATFORM_SETUP_TEARDOWN_ALT: False
+Restore: CONFIG_MBEDTLS_THREADING: False
+Restore: CONFIG_MBEDTLS_THREADING_ALT: False
+=========== End psa_crypto_config ===============
+=========== Generating psa_crypto_library_config ===============
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_C: False
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_KEY_ID_ENCODES_OWNER: False
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_SPM: False
+Backup: CONFIG_MBEDTLS_USE_PSA_CRYPTO: True
+Backup: CONFIG_MBEDTLS_PLATFORM_PRINTF_ALT: False
+Backup: CONFIG_MBEDTLS_THREADING: False
+Backup: CONFIG_MBEDTLS_THREADING_ALT: False
+=========== Checkpoint: backup ===============
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_C: False
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_KEY_ID_ENCODES_OWNER: False
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_SPM: False
+Restore: CONFIG_MBEDTLS_USE_PSA_CRYPTO: True
+Restore: CONFIG_MBEDTLS_PLATFORM_PRINTF_ALT: False
+Restore: CONFIG_MBEDTLS_THREADING: False
+Restore: CONFIG_MBEDTLS_THREADING_ALT: False
+=========== End psa_crypto_library_config ===============
+-- Using ccache: /opt/homebrew/bin/ccache
+CMake Warning at /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/CMakeLists.txt:1002 (message):
+  No SOURCES given to Zephyr library:
+  ..__nrf__subsys__net__lib__tls_credentials
+
+  Excluding target from build.
+
+
+-- Including signing script: /Users/navjotsinghchahal/Desktop/work/embedded/nrf/cmake/sysbuild/image_signing.cmake
+CMake Warning at /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/CMakeLists.txt:2180 (message):
+  __ASSERT() statements are globally ENABLED
+
+
+-- Configuring done (5.1s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main
+CMake Warning at /Users/navjotsinghchahal/Desktop/work/embedded/nrf/cmake/sysbuild/partition_manager.cmake:121 (message):
+
+
+        ---------------------------------------------------------------------
+        --- WARNING: Using a bootloader without pm_static.yml.            ---
+        --- There are cases where a deployed product can consist of       ---
+        --- multiple images, and only a subset of these images can be     ---
+        --- upgraded through a firmware update mechanism. In such cases,  ---
+        --- the upgradable images must have partitions that are static    ---
+        --- and are matching the partition map used by the bootloader     ---
+        --- programmed onto the device.                                   ---
+        ---------------------------------------------------------------------
+
+
+Call Stack (most recent call first):
+  /Users/navjotsinghchahal/Desktop/work/embedded/nrf/cmake/sysbuild/partition_manager.cmake:620 (partition_manager)
+  /Users/navjotsinghchahal/Desktop/work/embedded/nrf/sysbuild/CMakeLists.txt:779 (include)
+  cmake/modules/sysbuild_extensions.cmake:583 (nrf_POST_CMAKE)
+  cmake/modules/sysbuild_extensions.cmake:583 (cmake_language)
+  cmake/modules/sysbuild_images.cmake:46 (sysbuild_module_call)
+  cmake/modules/sysbuild_default.cmake:21 (include)
+  /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:75 (include)
+  /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)
+  /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/share/sysbuild-package/cmake/SysbuildConfig.cmake:8 (include)
+  template/CMakeLists.txt:10 (find_package)
+
+
+-- Configuring done (13.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build
+-- west build: building application
+[9/20] Performing build step for 'nrf7002-memfault-example-main'
+[0/1] Re-running CMake...
+Loading Zephyr default modules (Zephyr base (cached)).
+-- Application: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main
+-- CMake version: 4.1.2
+-- Cache files will be written to: /Users/navjotsinghchahal/Library/Caches/zephyr
+-- Zephyr version: 4.0.99 (/Users/navjotsinghchahal/Desktop/work/embedded/zephyr)
+-- Found west (found suitable version "1.2.0", minimum required is "0.14.0")
+-- Board: nrf7002dk, qualifiers: nrf5340/cpuapp/ns
+-- Found host-tools: zephyr 0.17.0 (/opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk)
+-- Found toolchain: zephyr 0.17.0 (/opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk)
+-- Could NOT find Dtc (missing: DTC) (Required is at least version "1.4.6")
+Hint: The project() command has not yet been called.  It sets up system-specific search paths.
+-- Found BOARD.dts: /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/boards/nordic/nrf7002dk/nrf7002dk_nrf5340_cpuapp_ns.dts
+-- Generated zephyr.dts: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/zephyr.dts
+-- Generated pickled edt: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/edt.pickle
+-- Generated zephyr.dts: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/zephyr.dts
+-- Generated devicetree_generated.h: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/include/generated/zephyr/devicetree_generated.h
+-- Including generated dts.cmake file: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/dts.cmake
+
+warning: Deprecated symbol DOWNLOAD_CLIENT is enabled.
+
+
+warning: Experimental symbol NET_CONNECTION_MANAGER is enabled.
+
+Parsing /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/Kconfig
+Loaded configuration '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/.config'
+Merged configuration '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/.config.sysbuild'
+No change to configuration in '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/.config'
+No change to Kconfig header in '/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/zephyr/include/generated/zephyr/autoconf.h'
+=========== Generating psa_crypto_config ===============
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_SPM: False
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_C: False
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_KEY_ID_ENCODES_OWNER: False
+Backup: CONFIG_MBEDTLS_PLATFORM_SETUP_TEARDOWN_ALT: False
+Backup: CONFIG_MBEDTLS_THREADING: False
+Backup: CONFIG_MBEDTLS_THREADING_ALT: False
+=========== Checkpoint: backup ===============
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_SPM: False
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_C: False
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_KEY_ID_ENCODES_OWNER: False
+Restore: CONFIG_MBEDTLS_PLATFORM_SETUP_TEARDOWN_ALT: False
+Restore: CONFIG_MBEDTLS_THREADING: False
+Restore: CONFIG_MBEDTLS_THREADING_ALT: False
+=========== End psa_crypto_config ===============
+=========== Generating psa_crypto_library_config ===============
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_C: False
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_KEY_ID_ENCODES_OWNER: False
+Backup: CONFIG_MBEDTLS_PSA_CRYPTO_SPM: False
+Backup: CONFIG_MBEDTLS_USE_PSA_CRYPTO: True
+Backup: CONFIG_MBEDTLS_PLATFORM_PRINTF_ALT: False
+Backup: CONFIG_MBEDTLS_THREADING: False
+Backup: CONFIG_MBEDTLS_THREADING_ALT: False
+=========== Checkpoint: backup ===============
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_C: False
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_KEY_ID_ENCODES_OWNER: False
+Restore: CONFIG_MBEDTLS_PSA_CRYPTO_SPM: False
+Restore: CONFIG_MBEDTLS_USE_PSA_CRYPTO: True
+Restore: CONFIG_MBEDTLS_PLATFORM_PRINTF_ALT: False
+Restore: CONFIG_MBEDTLS_THREADING: False
+Restore: CONFIG_MBEDTLS_THREADING_ALT: False
+=========== End psa_crypto_library_config ===============
+-- Using ccache: /opt/homebrew/bin/ccache
+CMake Warning at /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/CMakeLists.txt:1002 (message):
+  No SOURCES given to Zephyr library:
+  ..__nrf__subsys__net__lib__tls_credentials
+
+  Excluding target from build.
+
+
+-- Including signing script: /Users/navjotsinghchahal/Desktop/work/embedded/nrf/cmake/sysbuild/image_signing.cmake
+CMake Warning at /Users/navjotsinghchahal/Desktop/work/embedded/zephyr/CMakeLists.txt:2180 (message):
+  __ASSERT() statements are globally ENABLED
+
+
+-- Configuring done (4.4s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main
+[1/476] Preparing syscall dependency handling
+
+[6/476] Generating include/generated/zephyr/version.h
+-- Zephyr version: 4.0.99 (/Users/navjotsinghchahal/Desktop/work/embedded/zephyr), build: v4.0.99-ncs1-2
+[12/476] Generating ../../tfm/CMakeCache.txt
+-- Found Git: /usr/bin/git (found version "2.50.1 (Apple Git-155)")
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc
+-- Found Python3: /opt/nordic/ncs/toolchains/ef4fc6722e/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/bin/python3 (found version "3.12.4") found components: Interpreter
+-- Found Python3: /opt/nordic/ncs/toolchains/ef4fc6722e/Cellar/python@3.12/3.12.4/Frameworks/Python.framework/Versions/3.12/bin/python3 (found suitable version "3.12.4", minimum required is "3.10") found components: Interpreter
+-- Cache files will be written to: /Users/navjotsinghchahal/Library/Caches/zephyr
+CMake Warning (dev) at /Users/navjotsinghchahal/Desktop/work/embedded/nrf/modules/trusted-firmware-m/tfm_boards/nrf5340_cpuapp/CMakeLists.txt:21 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm
+[17/476] Performing build step for 'tfm'
+[125/143] Building C object secure_fw/spm/CMakeFiles...tform/ext/target/nordic_nrf/common/core/target_cfg.o
+FAILED: [code=1] secure_fw/spm/CMakeFiles/tfm_spm.dir/__/__/platform/ext/target/nordic_nrf/common/core/target_cfg.o
+/opt/nordic/ncs/toolchains/ef4fc6722e/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -DBL1_HEADER_SIZE=0x000 -DBL1_TRAILER_SIZE=0x000 -DBL2_HEADER_SIZE=0x000 -DBL2_TRAILER_SIZE=0x000 -DCONFIG_NFCT_PINS_AS_GPIOS -DCONFIG_TFM_ENABLE_CP10CP11 -DCONFIG_TFM_FLOAT_ABI=2 -DCONFIG_TFM_HALT_ON_CORE_PANIC -DCONFIG_TFM_LAZY_STACKING -DCONFIG_TFM_USE_TRUSTZONE -DCRYPTO_HW_ACCELERATOR -DDAUTH_CHIP_DEFAULT -DINSIDE_TFM_BUILD -DMBEDTLS_CONFIG_FILE=\"nrf-config.h\" -DMBEDTLS_PSA_CRYPTO_CONFIG_FILE=\"nrf-psa-crypto-config.h\" -DMBEDTLS_PSA_CRYPTO_DRIVERS -DMCUBOOT_IMAGE_NUMBER=1 -DNRF5340_XXAA_APPLICATION -DNRF53_SERIES -DNRF_ALLOW_NON_SECURE_FAULT_HANDLING -DNRF_ALLOW_NON_SECURE_RESET -DNRF_CONFIG_CPU_FREQ_MHZ=128 -DNRF_HW_INIT_NRF_PERIPHERALS -DNRF_HW_INIT_RESET_ON_BOOT -DNRF_NS_SECONDARY -DNRF_NS_STORAGE -DNRF_SECURE_UART_INSTANCE=1 -DNRF_SKIP_FICR_NS_COPY_TO_RAM -DPLATFORM_DEFAULT_BL1 -DPLATFORM_NS_NV_COUNTERS=0 -DPROJECT_CONFIG_HEADER_FILE=\"/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/modules/nrf/modules/trusted-firmware-m/tfm_config.h\" -DPS_CRYPTO_AEAD_ALG_GCM -DPS_ENCRYPTION -DSECURE_UART1 -DTFM_EXCEPTION_INFO_DUMP -DTFM_FIH_PROFILE_OFF -DTFM_INTERNAL_TRUSTED_STORAGE_SERVICE_SID=0x00000070 -DTFM_ISOLATION_LEVEL=1 -DTFM_PARTITION_CRYPTO -DTFM_PARTITION_LOG_LEVEL=TFM_PARTITION_LOG_LEVEL_SILENCE -DTFM_PARTITION_NS_AGENT_TZ -DTFM_PARTITION_PLATFORM -DTFM_SPM_LOG_LEVEL=TFM_SPM_LOG_LEVEL_INFO -DTFM_SPM_LOG_RAW_ENABLED -D__NRF_TFM__ -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/spm -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/spm/include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/spm/core -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/partitions/lib/runtime -I/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/generated -I/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/generated/secure_fw/spm/include -I/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/generated/secure_fw/spm/core -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/spm/core/arch -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/spm/include/boot -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/spm/include/interface -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/. -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/native_drivers -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/hal/nordic/nrfx -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/hal/nordic/nrfx/mdk -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/hal/nordic/nrfx/drivers/include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/common -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/.. -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/services/include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf5340/. -I/Users/navjotsinghchahal/Desktop/work/embedded/nrf/modules/trusted-firmware-m/tfm_boards/include -I/Users/navjotsinghchahal/Desktop/work/embedded/nrf/modules/trusted-firmware-m/tfm_boards/partition -I/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/../zephyr/include/generated -I/Users/navjotsinghchahal/Desktop/work/embedded/nrf/modules/trusted-firmware-m/tfm_boards/board -I/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/../zephyr/misc/generated/syscalls_links/include -I/Users/navjotsinghchahal/Desktop/work/embedded/zephyr/include -I/Users/navjotsinghchahal/Desktop/work/embedded/nrf/modules/trusted-firmware-m/tfm_boards/services/include -I/Users/navjotsinghchahal/Desktop/work/embedded/nrf/include -I/Users/navjotsinghchahal/Desktop/work/embedded/nrf/include/tfm -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/accelerator/interface -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/../secure_fw/spm/include/private -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/common -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/driver -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/config -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/partitions/crypto -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/partitions/firmware_update -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/partitions/initial_attestation -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/partitions/internal_trusted_storage -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/partitions/platform -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/partitions/protected_storage -I/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/generated/interface/include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/partitions/crypto/../../../platform/include -I/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/generated/interface_nrf_security_psa -I/Users/navjotsinghchahal/Desktop/work/embedded/nrf/subsys/nrf_security/include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/crypto/oberon-psa-crypto/include -I/Users/navjotsinghchahal/Desktop/work/embedded/nrf/subsys/nrf_security/src/utils -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/lib/fih/inc -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/cmsis/CMSIS/Core/Include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/cmsis/CMSIS/Core/Include/m-profile -I/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/generated/secure_fw/partitions/crypto -I/Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/generated/secure_fw/partitions/platform -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/secure_fw/partitions/lib/runtime/include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/crypto/oberon-psa-crypto/library -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/crypto/mbedtls/library -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/crypto/mbedtls/include -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/crypto/mbedtls/include/library -I/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/interface/include -mcpu=cortex-m33 -Os -DNDEBUG -specs=nano.specs -specs=nosys.specs -Wall -Wno-format -Wno-return-type -Wno-unused-but-set-variable -c -fdata-sections -ffunction-sections -fno-builtin -fshort-enums -funsigned-char -mthumb -std=c99 -gdwarf-4 -g -mfloat-abi=hard -mfpu=fpv5-sp-d16 -mcmse -Wno-unused-value -include /Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/include/cmsis_override.h -MD -MT secure_fw/spm/CMakeFiles/tfm_spm.dir/__/__/platform/ext/target/nordic_nrf/common/core/target_cfg.o -MF secure_fw/spm/CMakeFiles/tfm_spm.dir/__/__/platform/ext/target/nordic_nrf/common/core/target_cfg.o.d -o secure_fw/spm/CMakeFiles/tfm_spm.dir/__/__/platform/ext/target/nordic_nrf/common/core/target_cfg.o -c /Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/target_cfg.c
+In file included from /Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/target_cfg.h:36,
+                 from /Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/target_cfg.c:18:
+/Users/navjotsinghchahal/Desktop/work/embedded/nrf/modules/trusted-firmware-m/tfm_boards/partition/region_defs.h:26:45: error: 'PM_MCUBOOT_SECONDARY_ADDRESS' undeclared here (not in a function); did you mean 'PM_MCUBOOT_END_ADDRESS'?
+   26 | #define S_IMAGE_SECONDARY_PARTITION_OFFSET (PM_MCUBOOT_SECONDARY_ADDRESS)
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/navjotsinghchahal/Desktop/work/embedded/nrf/modules/trusted-firmware-m/tfm_boards/partition/region_defs.h:102:36: note: in expansion of macro 'S_IMAGE_SECONDARY_PARTITION_OFFSET'
+  102 | #define SECONDARY_PARTITION_START (S_IMAGE_SECONDARY_PARTITION_OFFSET)
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/navjotsinghchahal/Desktop/work/embedded/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/core/target_cfg.c:765:33: note: in expansion of macro 'SECONDARY_PARTITION_START'
+  765 |     .secondary_partition_base = SECONDARY_PARTITION_START,
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+[127/143] Building C object secure_fw/partitions/cry...odules/crypto/oberon-psa-crypto/library/psa_crypto.o
+ninja: build stopped: subcommand failed.
+FAILED: [code=1] modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-build tfm/bin/tfm_s.elf tfm/bin/tfm_s.bin tfm/bin/tfm_s.hex tfm/bin/tfm_s_signed.bin tfm/bin/tfm_s_ns_signed.bin tfm/api_ns/interface/lib/s_veneers.o tfm/api_ns/interface/src/tfm_attest_api.c tfm/api_ns/interface/src/tfm_crypto_api.c tfm/api_ns/interface/src/tfm_fwu_api.c tfm/api_ns/interface/src/tfm_its_api.c tfm/api_ns/interface/src/tfm_platform_api.c tfm/api_ns/interface/src/tfm_ps_api.c tfm/api_ns/interface/src/tfm_tz_psa_ns_api.c tfm/api_ns/interface/src/tfm_ioctl_core_ns_api.c /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-build /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/bin/tfm_s.elf /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/bin/tfm_s.bin /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/bin/tfm_s.hex /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/bin/tfm_s_signed.bin /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/bin/tfm_s_ns_signed.bin /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/api_ns/interface/lib/s_veneers.o /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/api_ns/interface/src/tfm_attest_api.c /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/api_ns/interface/src/tfm_crypto_api.c /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/api_ns/interface/src/tfm_fwu_api.c /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/api_ns/interface/src/tfm_its_api.c /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/api_ns/interface/src/tfm_platform_api.c /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/api_ns/interface/src/tfm_ps_api.c /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/api_ns/interface/src/tfm_tz_psa_ns_api.c /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm/api_ns/interface/src/tfm_ioctl_core_ns_api.c
+cd /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main/tfm && /opt/homebrew/bin/cmake --build .
+ninja: build stopped: subcommand failed.
+[10/20] No configure step for 'mcuboot'
+FAILED: [code=1] _sysbuild/sysbuild/images/nrf7002-memfault-example-main-prefix/src/nrf7002-memfault-example-main-stamp/nrf7002-memfault-example-main-build /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/_sysbuild/sysbuild/images/nrf7002-memfault-example-main-prefix/src/nrf7002-memfault-example-main-stamp/nrf7002-memfault-example-main-build
+cd /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build/nrf7002-memfault-example-main && /opt/homebrew/bin/cmake --build .
+ninja: build stopped: subcommand failed.
+FATAL ERROR: command exited with status 1: /opt/homebrew/bin/cmake --build /Users/navjotsinghchahal/Desktop/work/embedded/MEMFAULT_EXAMPLE_FOTA_nrf7002dk/nrf7002-memfault-example-main/build
